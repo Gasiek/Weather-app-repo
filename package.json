@@ -1,0 +1,28 @@
+{
+  "name": "weather-app-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gasiek/Weather-app-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gasiek/Weather-app-repo/issues"
+  },
+  "homepage": "https://github.com/Gasiek/Weather-app-repo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
