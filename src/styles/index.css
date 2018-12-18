@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.search {
+    width: 100vw;
+    height: 10vh;
+}
+
+div.day{
+    padding:10px;
+}
+
+.tempDay span{
+    color: red;
+}
+
+.tempNight span{
+    color: blue;
+}
+
+#dailyWeather{
+    display: grid;
+}
