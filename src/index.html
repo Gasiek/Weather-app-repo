@@ -11,46 +11,47 @@
 
 <body>
     <div class="search">
-        <input type="text" id="searchInput" placeholder="Enter city">
-        <button id='button' class="searchButton">Search</button>
+        <div class="searchForm">
+            <p class="question">What city are you looking for?</p>
+            <input type="text" id="searchInput" placeholder="Enter city">
+            <button id='button' class="searchButton">Search</button>
+            <p id = "errorMessage">The name is incorrect, try again</p>
+        </div>
     </div>
     <div class="container">
         <div id=current>
             <div id="cityName"></div>
-            <div id="currentTemp"></div>
-            <div id="currentWeather"></div>
-            <div id="currentPressure"></div>
-            <div id="currentHumidity"></div>
+            <div class=currentInfo>
+                <div id="currentTemp"></div>
+                <div id="currentWeather"></div>
+                <div id="currentPressure"></div>
+                <div id="currentHumidity"></div>
+            </div>
         </div>
         <div id="dailyWeather">
             <div class="day">
-                <div class = "time"></div>
-                <div class = "tempDay"></div>
-                <div class="tempNight"></div>
-                <div class = "wind"></div>
-            </div>
-            <div class="day">
                 <div class="time"></div>
-                <div class="tempDay"></div>
-                <div class="tempNight"></div>
+                <span class="tempDay"></span><span class="tempNight"></span>
                 <div class="wind"></div>
             </div>
             <div class="day">
                 <div class="time"></div>
-                <div class="tempDay"></div>
-                <div class="tempNight"></div>
+                <span class="tempDay"></span><span class="tempNight"></span>
                 <div class="wind"></div>
             </div>
             <div class="day">
                 <div class="time"></div>
-                <div class="tempDay"></div>
-                <div class="tempNight"></div>
+                <span class="tempDay"></span><span class="tempNight"></span>
                 <div class="wind"></div>
             </div>
             <div class="day">
                 <div class="time"></div>
-                <div class="tempDay"></div>
-                <div class="tempNight"></div>
+                <span class="tempDay"></span><span class="tempNight"></span>
+                <div class="wind"></div>
+            </div>
+            <div class="day">
+                <div class="time"></div>
+                <span class="tempDay"></span><span class="tempNight"></span>
                 <div class="wind"></div>
             </div>
         </div>
