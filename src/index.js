@@ -19,7 +19,6 @@ function getWeather() {
             if (err.status === 404) {
                 console.log("Błąd, żądany adres nie istnieje");
                 document.getElementsByClassName("container")[0].style.display = "none";
-                console.log(document.getElementById("searchInput"));
                 document.getElementById("searchInput").style.backgroundColor = "rgba(255, 65, 54, 0.4)";
                 document.getElementById("errorMessage").style.display = "block";
             }
